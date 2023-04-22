@@ -1,2 +1,4 @@
-rootProject.name = 'LearnOfJVM'
+include 'demo'
+include 'demo:_01'
+findProject(':demo:_01')?.name = '_01'
 
